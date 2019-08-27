@@ -1,6 +1,6 @@
 # code here!
 class School
-  attr_accessor :add_student
+  attr_accessor :add_student, :grade, :name
   attr_reader
 
   ROSTER = {}
@@ -14,7 +14,8 @@ class School
       ROSTER
   end
 
-  def add_student
-
+  def add_student(name, grade)
+    ROSTER[grade] = []
+    ROSTER[grade] << name
   end
 end
