@@ -1,20 +1,20 @@
 # code here!
-class School  
+class School
   attr_accessor
-  attr_reader 
+  attr_reader
 
   ROSTER = {}
-  
+
   def initialize(name)
     @name= name
   end
 
   def roster
-      @roster = roster 
+      @roster = roster
       ROSTER
   end
 
   def add_student
-    
+
   end
 end
