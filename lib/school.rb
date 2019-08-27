@@ -18,4 +18,8 @@ class School
     ROSTER[grade] = []
     ROSTER[grade] << name
   end
+
+  def grade(grade)
+    ROSTER[grade]
+  end
 end
