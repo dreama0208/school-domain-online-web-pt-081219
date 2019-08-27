@@ -20,7 +20,7 @@ class School
   end
 
 
-  def grade(grade)
+  def grade
     ROSTER[grade]
   end
 
