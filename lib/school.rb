@@ -3,7 +3,6 @@ class School
   attr_accessor :grade, :length
   attr_reader :roster, :sort, :name
 
-  ROSTER = {}
 
   def initialize(name)
     @name = name
@@ -11,8 +10,8 @@ class School
   end
 
   def add_student(name, grade)
-    ROSTER[grade] = []
-    ROSTER[grade] << name
+    roster[grade] = []
+    roster[grade] << name
   end
 
   def roster=(roster)
