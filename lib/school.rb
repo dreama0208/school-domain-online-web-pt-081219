@@ -5,6 +5,11 @@ class School
 
   ROSTER = {}
 
+  def roster=(roster)
+      @roster = roster
+      ROSTER
+  end
+
   def initialize(roster)
     ROSTER
   end
@@ -13,12 +18,6 @@ class School
     ROSTER[grade] = []
     ROSTER[grade] << name
   end
-
-  def roster=(roster)
-      @roster = roster
-      ROSTER
-  end
-
 
   def grade(grade)
     ROSTER[grade]
