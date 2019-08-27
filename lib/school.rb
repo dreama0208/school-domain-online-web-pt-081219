@@ -1,7 +1,7 @@
 # code here!
 class School
-  attr_accessor :add_student, :grade, :name
-  attr_reader
+  attr_accessor :grade
+  attr_reader :name, :add_student, :roster
 
   ROSTER = {}
 
