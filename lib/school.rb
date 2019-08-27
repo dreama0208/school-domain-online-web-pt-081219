@@ -10,8 +10,8 @@ class School
       ROSTER
   end
 
-  def initialize(roster)
-    ROSTER
+  def initialize(name)
+    @name = name
   end
 
   def add_student(name, grade)
