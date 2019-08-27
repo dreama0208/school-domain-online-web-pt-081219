@@ -1,6 +1,6 @@
 # code here!
 class School
-  attr_accessor
+  attr_accessor :add_student
   attr_reader
 
   ROSTER = {}
@@ -15,6 +15,6 @@ class School
   end
 
   def add_student
-
+    
   end
 end
